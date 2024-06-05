@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+}
+
+.my_password {
+    width: 315px;
+    height: 45px;
+    top: 12px;
+    left: 9px;
+    border-radius: 10px;
+    border: 1px #E0E0E0 solid;
+    display: inline-block;
+    position: absolute;
+}
+
+.my_password::placeholder {
+    color:  #E0E0E0;
+}
+
+.my_password2 {
+    width: 315px;
+    height: 45px;
+    top: 66px;
+    left: 9px;
+    border-radius: 15px;
+    border: 1px #FF0000 solid;
+    background-color: #610000;
+    display: inline-block;
+    position: absolute;
+}
+
+.my_password2::placeholder {
+    color: #FF0000;
+}
+
+.my_password3 {
+    width: 467px;
+    height: 45px;
+    top: 125px;
+    left: 9px;
+    border-radius: 5px;
+    border: 1px #A8AB00 solid;
+    position: left;
+    display: inline-block;
+    position: absolute;
+}
+
+.my_password3::placeholder {
+    color: #A8AB00;
+}
+
+.my_password4 {
+    width: 315px;
+    height: 45px;
+    top: 179px;
+    left: 9px;
+    border-radius: 30px;
+    border: 2px #F9FE03 solid;
+    background-color:#292828;
+    display: inline-block;
+    position: absolute;
+}
+
+.my_password4::placeholder {
+    color: #F9FE03;
+}
